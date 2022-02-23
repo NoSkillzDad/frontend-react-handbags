@@ -9,6 +9,7 @@ nav {
 }
 
 footer {
+    width: 840px; /* added by me, otherwise it fills the whole screen*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,7 +30,7 @@ section {
 }
 
 section p {
-    max-width: 200px;
+    max-width: 60%; /*modified from 100%*/
 }
 
 button {
